@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":["file:///D:/Project/linktree-clone/app/api/generate/route.js"],"sourcesContent":["\r\n\r\n\r\nexport async function POST(request) {\r\n    const body = await request.json()\r\n    console.log(body)\r\n    return Response.json({ message: 'Hello World' })\r\n}"],"names":[],"mappings":";;;AAGO,eAAe,KAAK,OAAO;IAC9B,MAAM,OAAO,MAAM,QAAQ,IAAI;IAC/B,QAAQ,GAAG,CAAC;IACZ,OAAO,SAAS,IAAI,CAAC;QAAE,SAAS;IAAc;AAClD","debugId":null}}]
+}

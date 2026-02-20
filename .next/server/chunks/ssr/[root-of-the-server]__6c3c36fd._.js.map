@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/Project/linktree-clone/components/Navbar.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Navbar = () => {\r\n  return (\r\n    <nav className='bg-white'>\r\n        <div className=\"logo\">\r\n           <img loading=\"eager\" src=\"https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66634daccb34e6d65a41c76d_download.svg\" alt=\"\" class=\"nav-desktop-logo\"></img> \r\n        </div>\r\n    </nav>\r\n  )\r\n}\r\n\r\nexport default Navbar\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAI,WAAU;sBACZ,cAAA,8OAAC;gBAAI,SAAQ;gBAAQ,KAAI;gBAAoG,KAAI;gBAAG,OAAM;;;;;;;;;;;;;;;;AAIrJ;uCAEe","debugId":null}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":["file:///D:/Project/linktree-clone/app/page.js"],"sourcesContent":["import Navbar from \"@/components/Navbar\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <main>\n      <section className=\"bg-green-600\">\n        <Navbar />\n      </section>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAQ,WAAU;sBACjB,cAAA,8OAAC,oHAAA,CAAA,UAAM;;;;;;;;;;;;;;;AAIf","debugId":null}}]
+}
